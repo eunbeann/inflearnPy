@@ -67,3 +67,52 @@ n = 600
 print (id(m))
 print (id(n))
 print (id(m) == id(n))
+
+
+# 같은 오브젝트 참조
+
+m = 800
+n = 800
+
+print (id(m))
+print (id(n))
+print (id(m) == id(n))
+print ()
+
+# 재사용, 같은 값 사용하면 파이썬은 내부에서 하나만 만들어짐!
+
+# 다양한 변수 선언
+# Camel Case : numberOfColegeGraduates -> Method #추천!!
+# Pascal Case : NumverOfCollegeGraduates -> Class
+# Snake Case : number_of_college_graduates
+
+studentGrade = 3
+
+#허용하는 변수 선언 법
+
+age =1 
+Age = 1
+aGe =1 
+AGE = 1
+a_g_e = 1
+_age = 3
+age_ = 2
+_AGE_ = 8
+
+#특수문자, 숫자로 시작하는 변수 안됨 
+
+# 예약어는 변수명으로 불가능
+
+# for, as , class 와 같은 것
+
+'''
+False def if raise
+None del import return
+True elif in try
+and else is while
+as except lambda with
+assert finally nonlocal yield
+break for not
+class from or
+continue global pass
+'''
