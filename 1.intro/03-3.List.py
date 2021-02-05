@@ -120,8 +120,13 @@ while a :
 
 #### 리스트 사용 법
 # 리스트 선언, 리스트 특징, 리스트 인덱싱, 리스트 슬라이싱, 리스트 함수, 리스트 사제
+print()
+print (">>복습 연습<<")
 
-
+liprac = [ 3, 23, 2, 5, 4, 12]
+print(liprac)
+print (liprac.pop())
+print(liprac)
 
 
 
