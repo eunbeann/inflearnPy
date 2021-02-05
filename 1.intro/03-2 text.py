@@ -112,4 +112,30 @@ print(dir(im_str)) #__iter__ 가 존재하면 반복 가능
 for i in im_str:
     print(i)
 
+# 슬라이싱 연습 문자형 (2-3)
 
+str_sl = "Nice Python"
+
+#슬라이싱 연습
+
+print (str_sl[0:3])  # 0 1 2
+print (str_sl[5:]) # [5:11]
+print (str_sl [:len(str_sl)]) # str_sl [:11] #끝 부분 모를 땐 len 쓰거나 비우기 
+print (str_sl [:len(str_sl)-1]) # str_sl [:10] / 임의로 슬라이싱 처리 조정 가능
+print (str_sl [1:9:2]) #세번째 단위는 몇개 단위로 스킴해서 가져올지
+print(str_sl [-5:])
+print (str_sl [1:-2])
+print(str_sl[::2]) # 처음 부터 끝까지 두 칸 간격으로 점프하기
+print (str_sl[::-1]) #처음부터 끝까지 반대 방향으로
+
+
+# 아스키 코드 (또는 유니코드)
+
+a = 'z'
+
+print (ord(a)) # 알파벳을 아스키 코드로 보여줌
+print (chr(122)) # 아스키 코드를 알파벳(문자)으로 보여줌 
+
+
+# 문자형 사용법
+# 문자형 중요성 . 문자형 출력, 이스케이프, 멀티 라인, 문자형 연산, 문자형 형변환, 인덱싱, 문자열 함쉬, 슬라이싱
