@@ -50,7 +50,7 @@ print('a - ', a.count(2))
 # 팩킹 & 언팩킹 (Packing and Unpacking)
 
 # 팩킹
- t = ('foo', 'bar', 'baz', 'qux') 
+t = ('foo', 'bar', 'baz', 'qux') 
 
 #묶어둔거라 인덱싱 가능함 / 튜플을 선언하는 거와 마찬가지
 print (t)
@@ -74,7 +74,8 @@ print(x1, x2, x3)
 print(x4, x5, x6)
 
 
-
+# 튜플 사용 법
+# 튜플 선언, 튜플 특징, 튜플 슬라이싱, 튜플 함수, 팩킹, 언팩킹
 
 
 
