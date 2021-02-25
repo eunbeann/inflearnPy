@@ -107,5 +107,62 @@ grade = 'platinum'
 if id1 == 'vip' or id2 == 'admin':
     print("관리자 입장")
 
-if id2=='admin' and grade == 'platinum'
+if id2=='admin' and grade == 'platinum':
     print('최상위 관리자')
+
+
+#예6
+#다중조건문
+
+num = 90
+
+if num >=90:
+    print('Geade : A')
+elif num >= 80:
+    print('Grade : B')
+elif num >=70:
+    print('Grade : C')
+else:
+    print('과락')
+
+
+# 예7
+# 중첩 조건문
+# if 안에 if
+
+grade = 'A'
+total = 95
+
+if grade == 'A':
+    if total >= 90:
+        print('장학금 100$')
+    elif total >= 80:
+        print >= 80:
+        print ('장학금 80%')
+    else:
+        print('장학금 50%')
+else:
+    print('장학금 없음')
+
+
+# in / not in
+q = [ 10, 20 30]
+w = [79, 80, 90, 100]
+e = ["name": "Lee", "city":"SEoul", "grade":"A"]
+r = (10, 12, 14)
+
+print (15 in q)
+print (90 in w)
+print (12 not in w)
+print ("name" in e)
+print ("SEoul" in e) #이건 키가 아니라 값.... 값 보려면? >
+print ("SEoul" in e.values()) # 값 가져오기 .values()
+
+
+''' IF 구문 실습
+ -관계연산자 실습
+ - 논리 연산자 실습
+  - 일반 조건문
+  - 다중 조건물
+  = 중첩 조건문
+ '''
